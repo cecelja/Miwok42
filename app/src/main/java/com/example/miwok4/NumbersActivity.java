@@ -97,14 +97,4 @@ public class NumbersActivity extends AppCompatActivity {
         releaseMediaPlayer();
     }
 
-    @Override
-    public void onBackPressed() {
-        super.onBackPressed();
-        Context context = getApplicationContext();
-        CharSequence text = "Hello bro!";
-        int duration = Toast.LENGTH_SHORT;
-
-        Toast toast = Toast.makeText(context, text, duration);
-        toast.show();
-    }
 }
